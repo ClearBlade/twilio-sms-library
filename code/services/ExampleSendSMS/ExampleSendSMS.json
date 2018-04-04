@@ -1,0 +1,10 @@
+{
+    "current_version": 31,
+    "dependencies": "TwilioSMS",
+    "logging_enabled": "false",
+    "name": "ExampleSendSMS",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "ExampleSendSMS.js"
+}
