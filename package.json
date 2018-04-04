@@ -1,0 +1,32 @@
+{
+    "author": {
+        "email": "rreinold@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Communication API for SMS",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://www.itsalllost.com/wp-content/uploads/2017/04/twilio-logo-red.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "sms",
+        "mobile",
+        "notification",
+        "alert",
+        "alerts",
+        "phone",
+        "telephone",
+        "cell",
+        "cellular",
+        "verification"
+    ],
+    "license": "MIT",
+    "name": "twilio-sms-library",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
