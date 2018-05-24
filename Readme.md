@@ -13,10 +13,11 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 1. Create an account on [https://twilio.com](https://twilio.com)
 2. Obtain your Username, Password, and Origin Number
-3. Configure in your code service, (example provided in TwilioExampleSendSMS)
+3. Configure your constants in the _TwilioConstants_ library.
+4. Test using the example service _TwilioExampleSendSMS_.
 
 ## Usage
-
+This library gives user the ability to send sms using the _Twilio API_.
 
 ## Assets
 ### Code Libraries
