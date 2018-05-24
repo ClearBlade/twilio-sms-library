@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "http",
     "description": "Library for Sending Text Messages",
-    "name": "TwilioSMS",
-    "version": 26,
+    "name": "TwilioSMSLib",
+    "version": 4,
     "visibility": "system"
 }

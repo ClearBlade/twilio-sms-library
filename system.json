@@ -3,8 +3,8 @@
     "deployments": [],
     "description": "Communication API for SMS",
     "messaging_url": "staging.clearblade.com:1883",
-    "name": "pd-twilio-sms",
+    "name": "twilio-sms-library",
     "platform_url": "https://staging.clearblade.com",
-    "system_key": "e2d5aaac0b88a7cde78ce28db90b",
-    "system_secret": "E2D5AAAC0B94FCBCFCFDA6E18B0C"
+    "system_key": "",
+    "system_secret": ""
 }
