@@ -27,7 +27,7 @@
     "name": "twilio-sms-library",
     "private": false,
     "prog_lang": ["javascript"],
-    "protocols": ["SMS"],
+    "protocols": [],
     "things": [],
     "version": "1.1.0",
     "dependencies": {
