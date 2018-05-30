@@ -56,7 +56,7 @@ function Twilio(user, pass, originNumber){
 };
 
 /**
-* This callback is displayed as part of sgEmail.
+* This callback is displayed as part of this Library.
 * @callback callback
 * @param {Object} err
 * @param {Object} resp

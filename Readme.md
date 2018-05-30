@@ -41,7 +41,7 @@ This library gives user the ability to send sms using the _Twilio API_.
 
 <dl>
 <dt><a href="#callback">callback</a> : <code>function</code></dt>
-<dd><p>This callback is displayed as part of this library.</p>
+<dd><p>This callback is displayed as part of this Library.</p>
 </dd>
 <dt><a href="#Twilio">Twilio</a> : <code>Object</code></dt>
 <dd><p>Sends a text message using Twilio&#39;s REST API.</p>
@@ -51,7 +51,7 @@ This library gives user the ability to send sms using the _Twilio API_.
 <a name="callback"></a>
 
 ### callback : <code>function</code>
-This callback is displayed as part of sgEmail.
+This callback is displayed as part of this Library.
 
 **Kind**: global typedef  
 
@@ -78,10 +78,9 @@ Sends a text message using Twilio's REST API.
 ```js
 var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
 ```
-
 <a name="Twilio.sendSMS"></a>
 
-### Twilio.sendSMS(text, recipientNumber, callback)
+#### Twilio.sendSMS(text, recipientNumber, callback)
 Send SMS message
 
 **Kind**: static method of [<code>Twilio</code>](#Twilio)  
@@ -92,8 +91,8 @@ Send SMS message
 | recipientNumber | <code>string</code> | Formatted phone number ex. "(+1 339-987-2816)" |
 | callback | [<code>callback</code>](#callback) | ex. function(err, data){} |
 
-**Example** 
-
+**Example**
+  
 ```js
 var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
 
