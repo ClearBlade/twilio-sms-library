@@ -3,6 +3,6 @@
     "dependencies": "http",
     "description": "Library for Sending Text Messages",
     "name": "TwilioSMSLib",
-    "version": 4,
+    "version": 6,
     "visibility": "system"
 }

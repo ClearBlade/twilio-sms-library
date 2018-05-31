@@ -6,8 +6,8 @@
  * @param {string} sourceNumber Origin phone number of text message, ex "(+1 512-713-2783)"
  * 
  * @example
- * 
- * var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
+ * var twconf = TWILIO_CONFIG;
+ * var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
  */
 
 function Twilio(user, pass, originNumber){
@@ -24,8 +24,8 @@ function Twilio(user, pass, originNumber){
      * @param {callback} callback ex. function(err, data){}
      * 
      * @example
-     * 
-     * var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
+     * var twconf = TWILIO_CONFIG;
+     * var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
      * 
      * twilio.sendSMS(text, recipientNumber, function(err, data){
      *     if(err){

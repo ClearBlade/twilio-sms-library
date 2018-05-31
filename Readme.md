@@ -76,7 +76,8 @@ Sends a text message using Twilio's REST API.
 **Example**  
 
 ```js
-var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
+var twconf = TWILIO_CONFIG;
+var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
 ```
 <a name="Twilio.sendSMS"></a>
 
@@ -91,10 +92,11 @@ Send SMS message
 | recipientNumber | <code>string</code> | Formatted phone number ex. "(+1 339-987-2816)" |
 | callback | [<code>callback</code>](#callback) | ex. function(err, data){} |
 
-**Example**
-  
+**Example**  
+
 ```js
-var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
+var twconf = TWILIO_CONFIG;
+var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
 
 twilio.sendSMS(text, recipientNumber, function(err, data){
     if(err){

@@ -6,8 +6,8 @@
 function TwilioExampleSendSMS(req, resp){
         var text = "Geofence Breached - Dispatching Engineer";
         var recipientNumber = "(+1 512-867-5309)";
-        
-        var twilio = Twilio(TWILIO_USER, TWILIO_PASS, TWILIO_SOURCE_NUMBER);
+        var twconf = TWILIO_CONFIG;
+        var twilio = Twilio(twconf.USER, twconf.PASS, twconf.SOURCE_NUMBER);
         
         twilio.sendSMS(text, recipientNumber, callback);
         
