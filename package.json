@@ -1,7 +1,5 @@
 {
-    "author": {
-        "email": "rob@clearblade.com"
-    },
+    "author":  "Rob Reinold <rob@clearblade.com>",
     "clouds": [],
     "description": "Communication API for SMS",
     "domains": [],
@@ -22,13 +20,31 @@
         "telephone",
         "cell",
         "cellular",
-        "verification"
+        "verification",
+        "twilio"
     ],
     "license": "MIT",
     "name": "twilio-sms-library",
     "private": false,
-    "prog_lang": [],
+    "prog_lang": ["javascript"],
     "protocols": [],
     "things": [],
-    "version": "1.0.0"
+    "version": "1.2.0",
+    "dependencies": {
+        "http": "latest"
+    },
+    "scripts": {
+        "jsdoc": "jsdoc2md code/libraries/*/*.js --heading-depth=3 > jsdoc.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rreinold/twilio-sms-library.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rreinold/twilio-sms-library/issues"
+    },
+    "homepage": "https://github.com/rreinold/twilio-sms-library#readme",
+    "devDependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
 }
